@@ -1,1 +1,2 @@
 C:\Users\DSM2022\Desktop\프로그래밍\C\프로그래밍 구조체\x64\Debug\프로그래밍 구조체.exe
+C:\Users\DSM2022\Desktop\git\C언어\프로그래밍 구조체\x64\Debug\프로그래밍 구조체.exe

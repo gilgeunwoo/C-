@@ -62,34 +62,63 @@
 //	return 0;
 //}
 
+//
+//#include <stdlib.h>
+//#define SIZE 3
+//
+//typedef struct Student {
+//	int number;
+//	char name[20];
+//	double grade;
+//} Student;
+//
+//int main()
+//{
+//	Student st[SIZE];
+//
+//	for (int i = 0; i < SIZE; i++)
+//	{
+//		printf("학번 입력 : ");
+//		scanf("%d", &st[i].number);
+//		printf("이름 입력 : ");
+//		scanf("%s", &st[i].name);
+//		printf("학점 입력 : ");
+//		scanf("%lf", &st[i].grade);
+//	}
+//
+//	for (int i = 0; i < SIZE; i++)
+//	{
+//		printf("학번 : %d, 이름 : %s, 학점 : %.1lf\n", st[i].number, st[i].name, st[i].grade);
+//	}
+//
+//	return 0;
+//}
 
-#include <stdlib.h>
-#define SIZE 3
+//struct point {
+//	int x;
+//	int y;
+//};
+//
+//int main()
+//{
+//	struct point po[3];
+//
+//	for (int i = 0; i < 3; i++) {
+//		printf("x좌표 입력 : ");
+//		scanf("%d", &po[i].x);
+//		printf("y좌표 입력 : ");
+//		scanf("%d", &po[i].y);
+//	}
+//	for (int i = 0; i < 3; i++)
+//	{
+//		if (po[i].x > 0 && po[i].y > 0)
+//			printf("1사분면\n");
+//		else if (po[i].x < 0 && po[i].y>0)
+//			printf("2사분면\n");
+//		else if (po[i].x < 0 && po[i].y < 0)
+//			printf("3사분면\n");
+//		else
+//			printf("4사분면\n");
+//	}
+//}
 
-typedef struct Student {
-	int number;
-	char name[20];
-	double grade;
-} Student;
-
-int main()
-{
-	Student st[SIZE];
-
-	for (int i = 0; i < SIZE; i++)
-	{
-		printf("학번 입력 : ");
-		scanf("%d", &st[i].number);
-		printf("이름 입력 : ");
-		scanf("%s", &st[i].name);
-		printf("학점 입력 : ");
-		scanf("%lf", &st[i].grade);
-	}
-
-	for (int i = 0; i < SIZE; i++)
-	{
-		printf("학번 : %d, 이름 : %s, 학점 : %.1lf\n", st[i].number, st[i].name, st[i].grade);
-	}
-
-	return 0;
-}
