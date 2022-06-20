@@ -122,3 +122,11 @@
 //	}
 //}
 
+#include <stdio.h>
+
+int main()
+{
+	printf("È«½ÂÀç ¹Ùº¸");
+	return 0;
+
+}
